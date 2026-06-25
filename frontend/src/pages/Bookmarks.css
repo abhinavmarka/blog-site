@@ -1,0 +1,12 @@
+.bookmarks-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: left;
+}
+
+.bookmarks-page-container .empty-state {
+  padding: 80px 40px;
+  border-radius: var(--radius-lg);
+  max-width: 100%;
+}
